@@ -7,6 +7,7 @@ export const CheckoutItemContainer = styled.div`
  	min-height: 100px;
  	border-bottom: 1px solid darkgrey;
  	padding: 15px 0;
+	text-align: center;
  	font-size: 20px;
  	align-items: center;
 `
@@ -25,6 +26,7 @@ export const DefaultSpanInfo = styled.span`
 
 export const Quantity = styled(DefaultSpanInfo)`
 	display: flex;
+	justify-content: center;
 `
 
 export const Arrow = styled.div`
