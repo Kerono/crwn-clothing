@@ -1,3 +1,6 @@
+link to the project deployment
+https://amazing-salamander-ef4ba0.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
