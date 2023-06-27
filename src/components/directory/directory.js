@@ -1,5 +1,5 @@
 import {CategoriesContainer} from "./directory.styles"
-import DirectoryItem from "./directory-item"
+import DirectoryItem from "../directory-item/directory-item"
 const Directory = ({categories}) => {
 	return (
 		<CategoriesContainer>

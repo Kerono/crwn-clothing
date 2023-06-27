@@ -1,4 +1,4 @@
-import ProductCard from "./product-card"
+import ProductCard from "../product-card/product-card"
 import {CategoryPreviewContainer, Title, Preview} from "./category-preview.styles"
 
 const CategoryPreview = ({title, products}) => {

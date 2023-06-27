@@ -71,12 +71,14 @@ export const CartProvider = ({children}) => {
 	const [{cartItems, isCartOpen, cartCount, cartTotal}, dispatch] = useReducer(cartReducer,INITIAL_STATE )
 
 	const updateCartItemReducer = (newCartItems) => {
+		
 		const newCartTotal = newCartItems.reduce((total, cartItem) => {
 			return total + cartItem.quantity * cartItem.price
 		}, 0)
 		const newCartCount = newCartItems.reduce((total, cartItem) => {
 			return total + cartItem.quantity
 		}, 0)
+		
 		dispatch(
 			createAction(CART_ACTION_TYPES.SET_CART_ITEMS, {cartItems: newCartItems, cartTotal: newCartTotal, cartCount: newCartCount} 
 		))
